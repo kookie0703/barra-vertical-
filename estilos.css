@@ -1,0 +1,31 @@
+body{background-color: #f4d041;font-family:Arial;}
+
+
+     ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0;
+        width: 300px;
+        background-color: #ec34f2;
+        position: fixed;
+    }
+
+    li a{
+    display: block;
+    color: rgb(18, 18, 147);
+    padding: 40px 80px;
+    text-decoration: none;
+     }
+
+li a:hover:not(.active){
+    background-color: #e2f578;
+    }
+
+    .item-r{
+        float: left;
+    }
+
+    .main{ 
+        margin-left: 320px;
+        display:inline-block;
+        }
